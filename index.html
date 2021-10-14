@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+
+        <section class="login">
+            <div class="container d-flex justify-content-center align-items-center h-100">
+                <div class="login-info text-center p-5">
+                    <h2 class="text-center mb-5 fw-bold">Login</h2>
+
+                    <div class="input-group my-3">
+                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                        <input type="email" class="form-control" id="loginEmail" placeholder="Email" >
+                    </div>
+
+                    <div class="input-group mb-4">
+                        <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                        <input type="password" class="form-control" id="loginPassword" placeholder="Password" >
+                    </div>
+                    
+                    <div id="invalidAlert">All inputs is required</div>
+                    <div id="correction">incorrect email or password</div>
+
+                    <button class="btn main-bg" id="loginBtn">Login</button>
+
+                    <div class="mt-4 w-75 m-auto">
+                            <span class="text-white font-style">Don’t have an account?</span>
+                            <a href="signup.html" class="main-color sign-link">Sign Up Now!</a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
